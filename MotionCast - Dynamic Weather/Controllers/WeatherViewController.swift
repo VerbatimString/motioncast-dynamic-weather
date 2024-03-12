@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Whats the Weather
-//
-//  Created by AK on 2023-11-22.
-//
-
 import UIKit
 import CoreLocation
 import Lottie

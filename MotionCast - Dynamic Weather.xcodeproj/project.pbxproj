@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		413EB96D2B9FE0450095C55F /* OpenWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413EB96C2B9FE0450095C55F /* OpenWeatherModel.swift */; };
 		4170DC502B9FD24200D7290F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4170DC4F2B9FD24200D7290F /* LaunchScreen.storyboard */; };
 		417145662B9FA43900D933A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417145652B9FA43900D933A8 /* AppDelegate.swift */; };
 		417145682B9FA43900D933A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417145672B9FA43900D933A8 /* SceneDelegate.swift */; };
 		417145802B9FB0CC00D933A8 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4171457A2B9FB0CC00D933A8 /* WeatherViewController.swift */; };
-		417145972B9FB12200D933A8 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4171458F2B9FB12200D933A8 /* WeatherModel.swift */; };
 		417145982B9FB12200D933A8 /* WeatherConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417145902B9FB12200D933A8 /* WeatherConstants.swift */; };
 		417145992B9FB12200D933A8 /* APIKeyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417145912B9FB12200D933A8 /* APIKeyProvider.swift */; };
 		4171459E2B9FB17F00D933A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4171459A2B9FB17F00D933A8 /* Main.storyboard */; };
@@ -21,13 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		413EB96C2B9FE0450095C55F /* OpenWeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeatherModel.swift; sourceTree = "<group>"; };
 		4170DC4F2B9FD24200D7290F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		417145622B9FA43900D933A8 /* MotionCast - Dynamic Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MotionCast - Dynamic Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		417145652B9FA43900D933A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		417145672B9FA43900D933A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		417145732B9FA43B00D933A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4171457A2B9FB0CC00D933A8 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
-		4171458F2B9FB12200D933A8 /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		417145902B9FB12200D933A8 /* WeatherConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherConstants.swift; sourceTree = "<group>"; };
 		417145912B9FB12200D933A8 /* APIKeyProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeyProvider.swift; sourceTree = "<group>"; };
 		4171459B2B9FB17F00D933A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Downloads/IOS Development/Final Exam/Project/Kashif_Kadri_FE_8866889/Kashif_Kadri_FE_8866889/Views/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		4171458D2B9FB12200D933A8 /* OpenWeather */ = {
 			isa = PBXGroup;
 			children = (
-				4171458F2B9FB12200D933A8 /* WeatherModel.swift */,
+				413EB96C2B9FE0450095C55F /* OpenWeatherModel.swift */,
 				417145902B9FB12200D933A8 /* WeatherConstants.swift */,
 				417145912B9FB12200D933A8 /* APIKeyProvider.swift */,
 			);
@@ -202,8 +202,8 @@
 				417145982B9FB12200D933A8 /* WeatherConstants.swift in Sources */,
 				417145662B9FA43900D933A8 /* AppDelegate.swift in Sources */,
 				417145AA2B9FB2F400D933A8 /* Extensions.swift in Sources */,
+				413EB96D2B9FE0450095C55F /* OpenWeatherModel.swift in Sources */,
 				417145992B9FB12200D933A8 /* APIKeyProvider.swift in Sources */,
-				417145972B9FB12200D933A8 /* WeatherModel.swift in Sources */,
 				417145682B9FA43900D933A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
