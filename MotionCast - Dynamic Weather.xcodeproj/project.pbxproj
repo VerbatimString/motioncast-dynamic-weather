@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4170DC502B9FD24200D7290F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4170DC4F2B9FD24200D7290F /* LaunchScreen.storyboard */; };
+		417145662B9FA43900D933A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417145652B9FA43900D933A8 /* AppDelegate.swift */; };
+		417145682B9FA43900D933A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417145672B9FA43900D933A8 /* SceneDelegate.swift */; };
+		417145802B9FB0CC00D933A8 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4171457A2B9FB0CC00D933A8 /* WeatherViewController.swift */; };
+		417145972B9FB12200D933A8 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4171458F2B9FB12200D933A8 /* WeatherModel.swift */; };
+		417145982B9FB12200D933A8 /* WeatherConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417145902B9FB12200D933A8 /* WeatherConstants.swift */; };
+		417145992B9FB12200D933A8 /* APIKeyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417145912B9FB12200D933A8 /* APIKeyProvider.swift */; };
+		4171459E2B9FB17F00D933A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4171459A2B9FB17F00D933A8 /* Main.storyboard */; };
+		417145A12B9FB1F800D933A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417145A02B9FB1F800D933A8 /* Assets.xcassets */; };
+		417145A42B9FB29500D933A8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 417145A32B9FB29500D933A8 /* Lottie */; };
+		417145AA2B9FB2F400D933A8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417145A72B9FB2F400D933A8 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4170DC4F2B9FD24200D7290F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		417145622B9FA43900D933A8 /* MotionCast - Dynamic Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MotionCast - Dynamic Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		417145652B9FA43900D933A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		417145672B9FA43900D933A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		417145732B9FA43B00D933A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4171457A2B9FB0CC00D933A8 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		4171458F2B9FB12200D933A8 /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		417145902B9FB12200D933A8 /* WeatherConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherConstants.swift; sourceTree = "<group>"; };
+		417145912B9FB12200D933A8 /* APIKeyProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeyProvider.swift; sourceTree = "<group>"; };
+		4171459B2B9FB17F00D933A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Downloads/IOS Development/Final Exam/Project/Kashif_Kadri_FE_8866889/Kashif_Kadri_FE_8866889/Views/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		417145A02B9FB1F800D933A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/IOS Development/Final Exam/Project/Kashif_Kadri_FE_8866889/Kashif_Kadri_FE_8866889/Assets.xcassets"; sourceTree = "<group>"; };
+		417145A72B9FB2F400D933A8 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4171455F2B9FA43900D933A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417145A42B9FB29500D933A8 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417145592B9FA43900D933A8 = {
+			isa = PBXGroup;
+			children = (
+				417145642B9FA43900D933A8 /* MotionCast - Dynamic Weather */,
+				417145632B9FA43900D933A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		417145632B9FA43900D933A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417145622B9FA43900D933A8 /* MotionCast - Dynamic Weather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417145642B9FA43900D933A8 /* MotionCast - Dynamic Weather */ = {
+			isa = PBXGroup;
+			children = (
+				4171459A2B9FB17F00D933A8 /* Main.storyboard */,
+				4170DC4F2B9FD24200D7290F /* LaunchScreen.storyboard */,
+				417145652B9FA43900D933A8 /* AppDelegate.swift */,
+				417145672B9FA43900D933A8 /* SceneDelegate.swift */,
+				417145A02B9FB1F800D933A8 /* Assets.xcassets */,
+				417145732B9FA43B00D933A8 /* Info.plist */,
+				417145A52B9FB2F400D933A8 /* Helpers */,
+				417145862B9FB12200D933A8 /* Models */,
+				417145792B9FB0CC00D933A8 /* Controllers */,
+			);
+			path = "MotionCast - Dynamic Weather";
+			sourceTree = "<group>";
+		};
+		417145792B9FB0CC00D933A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4171457A2B9FB0CC00D933A8 /* WeatherViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		417145862B9FB12200D933A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				417145872B9FB12200D933A8 /* API */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		417145872B9FB12200D933A8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4171458D2B9FB12200D933A8 /* OpenWeather */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4171458D2B9FB12200D933A8 /* OpenWeather */ = {
+			isa = PBXGroup;
+			children = (
+				4171458F2B9FB12200D933A8 /* WeatherModel.swift */,
+				417145902B9FB12200D933A8 /* WeatherConstants.swift */,
+				417145912B9FB12200D933A8 /* APIKeyProvider.swift */,
+			);
+			path = OpenWeather;
+			sourceTree = "<group>";
+		};
+		417145A52B9FB2F400D933A8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				417145A72B9FB2F400D933A8 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417145612B9FA43900D933A8 /* MotionCast - Dynamic Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417145762B9FA43B00D933A8 /* Build configuration list for PBXNativeTarget "MotionCast - Dynamic Weather" */;
+			buildPhases = (
+				4171455E2B9FA43900D933A8 /* Sources */,
+				4171455F2B9FA43900D933A8 /* Frameworks */,
+				417145602B9FA43900D933A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MotionCast - Dynamic Weather";
+			packageProductDependencies = (
+				417145A32B9FB29500D933A8 /* Lottie */,
+			);
+			productName = "MotionCast: Dynamic Weather";
+			productReference = 417145622B9FA43900D933A8 /* MotionCast - Dynamic Weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4171455A2B9FA43900D933A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					417145612B9FA43900D933A8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 4171455D2B9FA43900D933A8 /* Build configuration list for PBXProject "MotionCast - Dynamic Weather" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 417145592B9FA43900D933A8;
+			packageReferences = (
+				417145A22B9FB29500D933A8 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 417145632B9FA43900D933A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417145612B9FA43900D933A8 /* MotionCast - Dynamic Weather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417145602B9FA43900D933A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4170DC502B9FD24200D7290F /* LaunchScreen.storyboard in Resources */,
+				417145A12B9FB1F800D933A8 /* Assets.xcassets in Resources */,
+				4171459E2B9FB17F00D933A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4171455E2B9FA43900D933A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417145802B9FB0CC00D933A8 /* WeatherViewController.swift in Sources */,
+				417145982B9FB12200D933A8 /* WeatherConstants.swift in Sources */,
+				417145662B9FA43900D933A8 /* AppDelegate.swift in Sources */,
+				417145AA2B9FB2F400D933A8 /* Extensions.swift in Sources */,
+				417145992B9FB12200D933A8 /* APIKeyProvider.swift in Sources */,
+				417145972B9FB12200D933A8 /* WeatherModel.swift in Sources */,
+				417145682B9FA43900D933A8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4171459A2B9FB17F00D933A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4171459B2B9FB17F00D933A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		417145742B9FA43B00D933A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		417145752B9FA43B00D933A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		417145772B9FA43B00D933A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F46KK9ZN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MotionCast - Dynamic Weather/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Symmetrification-Tech.MotionCast--Dynamic-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		417145782B9FA43B00D933A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F46KK9ZN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MotionCast - Dynamic Weather/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Symmetrification-Tech.MotionCast--Dynamic-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4171455D2B9FA43900D933A8 /* Build configuration list for PBXProject "MotionCast - Dynamic Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417145742B9FA43B00D933A8 /* Debug */,
+				417145752B9FA43B00D933A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417145762B9FA43B00D933A8 /* Build configuration list for PBXNativeTarget "MotionCast - Dynamic Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417145772B9FA43B00D933A8 /* Debug */,
+				417145782B9FA43B00D933A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		417145A22B9FB29500D933A8 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		417145A32B9FB29500D933A8 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 417145A22B9FB29500D933A8 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4171455A2B9FA43900D933A8 /* Project object */;
+}
